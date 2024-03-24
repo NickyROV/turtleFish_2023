@@ -1,7 +1,5 @@
 # turtleFish
-Simple ROV with Touch Screen as interface
-
-This is project intended to build a simple ROV with 4x3phase thruster.
+This project intended to build a simple 4 x 3 phase thruster ROV with Touch Screen as interface.
 
 Top side Hardware :
 
