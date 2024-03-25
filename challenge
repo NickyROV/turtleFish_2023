@@ -1,5 +1,6 @@
 #Further challenges
 #Upgrade 1 : Acknowledge signal from underwater unit once communication establish
+#Upgrade 1a : Keep track of connection status via IWDG
 #Upgrade 2 : Time delay until ESC pick up 1500us signal to set-up thrusters (1 seconds should be good)
 #Upgrade 3 : Program to handle situation when two touch buttons fire at the same time, interrupt may be an idea
 #Upgrade 4 : Water lead sensor in underwater unit
