@@ -8,3 +8,4 @@
 #Upgrade 6 : Crash avoidence by ultrasonic sensor
 #Upgrade 7 : Vision recognition by Edge AI
 #Upgrade 8 : Autonomous drive by Edga AI
+#Upgrade 9 : More sensors and with PID path control, ROS is definitely the choose.
