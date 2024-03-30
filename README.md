@@ -1,21 +1,22 @@
 # turtleFish
 This project intended to build a simple 3 phase thruster driven ROV with Touch Screen as interface.
 
-Top side Hardware :
+Top side Hardware : Touch screen Human Machine Interface (HMI)
 
-Touch screen Human Machine Interface (HMI)
-
-RS485 module (Modulation)
-
-Tether : 15m
-
-Underwater Hardware :
-
-RS485 module (Demodulation)
-
-RP2040 ARM Cortex M0 MCU (Raspberry Pi Pico)
+Underwater Hardware : RP2040 ARM Cortex M0 MCU (Raspberry Pi Pico) with
 
 Servo Driver Break out board (https://www.waveshare.com/wiki/Pico-Servo-Driver)
+
+----------------------------------------------------------------------------
+|                 Fish 1               |               Fish 2               |
+
+----------------------------------------------------------------------------
+
+| 4 X 3 phsae thrusters / 1 claw servo | 6 phase X thrusters / 2 claw servo |
+| 
+
+
+
 
 4x(ESC + T200 Bluerobotic Thruster)
 
