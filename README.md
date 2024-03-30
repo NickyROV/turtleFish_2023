@@ -5,9 +5,9 @@ Task : Design & programming / Test / Sourcing / Assembly / Pilot run / Deploymen
 
 Top side Hardware : Touch screen Human Machine Interface (HMI)
 
-Underwater Hardware : RP2040 ARM Cortex M0 MCU (Raspberry Pi Pico) with
+Underwater Hardware : RP2040 ARM Cortex-M0 MCU (Pico) with Break out board
 
-Servo Driver Break out board (https://www.waveshare.com/wiki/Pico-Servo-Driver)
+Communication protocol : UART via RS485
 
 |Little Fish|Big Fish|
 |---|---|
@@ -16,6 +16,4 @@ Servo Driver Break out board (https://www.waveshare.com/wiki/Pico-Servo-Driver)
 |6 pairs of twisted cable of 0.75mm^2|6 pairs of twisted cable of 1.0mm^2| 
 |2 x Fishing Camera|1 x Fishing Camera|
 
-PWM Frequency : 100Hz
-
-PWM range : 1100us(Full Backward) <-> 1500us(Stop) <-> 1900us(Full Forward)
+ESC -> PWM Freq 100Hz with range : 1100us(Full Backward) <-> 1500us(Stop) <-> 1900us(Full Forward)
