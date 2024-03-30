@@ -1,5 +1,5 @@
 # turtleFish
-This project intended to build a simple 4 x 3 phase thruster ROV with Touch Screen as interface.
+This project intended to build a simple 3 phase thruster driven ROV with Touch Screen as interface.
 
 Top side Hardware :
 
