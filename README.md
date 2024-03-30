@@ -1,5 +1,7 @@
 # turtleFish
-This project intended to build a simple 3 phase thruster driven ROV with Touch Screen as interface.
+This project was intended to build a simple 3 phase thruster driven ROV with Touch Screen as interface in 2 weeks time.
+
+Task : Design & programming / Test / Sourcing / Assembly / Pilot run / Deployment
 
 Top side Hardware : Touch screen Human Machine Interface (HMI)
 
