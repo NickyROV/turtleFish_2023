@@ -7,9 +7,10 @@ Underwater Hardware : RP2040 ARM Cortex M0 MCU (Raspberry Pi Pico) with
 
 Servo Driver Break out board (https://www.waveshare.com/wiki/Pico-Servo-Driver)
 
-----------------------------------------------------------------------------
+|Fish 1|Fish 2|
+|---|---|
 
-|                 Fish 1               |               Fish 2               |
+
 
 ----------------------------------------------------------------------------
 
