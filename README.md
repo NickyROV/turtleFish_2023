@@ -13,7 +13,10 @@ Servo Driver Break out board (https://www.waveshare.com/wiki/Pico-Servo-Driver)
 ----------------------------------------------------------------------------
 
 | 4 X 3 phsae thrusters / 1 claw servo | 6 phase X thrusters / 2 claw servo |
-| 
+|           Tether : 15 m              |         Tether : 20 m              |
+|         2 X Fishing Camera           |       1 X Fishing Camera           |
+
+----------------------------------------------------------------------------
 
 
 
