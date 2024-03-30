@@ -7,10 +7,11 @@ Underwater Hardware : RP2040 ARM Cortex M0 MCU (Raspberry Pi Pico) with
 
 Servo Driver Break out board (https://www.waveshare.com/wiki/Pico-Servo-Driver)
 
-|Fish 1|Fish 2|
+|Little Fish|Big Fish|
 |---|---|
-|4 X 3 phsae thrusters / 1 claw servo|6 phase X thrusters / 2 claw servo|
-|Tether : 15 m|Tether : 20 m|
+|4 x 3-phsae thrusters / 1 claw servo|6 x 3-phase thrusters / 2 claw servo|
+
+|Tether : 15 m of 6 pairs of twisted cable of 0.75mm^2|Tether : 20 mof 6 pairs of twisted cable of 1.0mm^2|
 |2 X Fishing Camera|1 X Fishing Camera|
 
 4x(ESC + T200 Bluerobotic Thruster)
