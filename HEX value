@@ -1,3 +1,23 @@
-Big turtleFish
+Action    bigFish  littleFish
+riseFast  aaaaff    aaaaff
+riseSlow  aabbff    aabbff
+sinkFast  aaccff    aaccff
+sinkSlow  aaddff    aaddff
 
-Little turtleFish
+fwdFast   ccaaff    ccaaff
+fwdSlow   ccbbff    ccbbff
+fwdLeft   ccccff    ------
+fwdRight  ccddff    ------
+
+revFase   ddaaff    ddaaff
+revSlow   ddbbff    ddbbff
+revLeft   ddccff    ------
+revRight  ddddff    ------
+
+turnLeft  bbbbff    bbbbff
+turnRight bbaaff    bbaaff
+
+clawOpen  eeaaff    eeaaff
+clawClose eebbff    eebbff
+clawUp    eeccff    ------
+clawDown  eeddff    ------
