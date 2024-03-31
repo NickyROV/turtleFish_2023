@@ -7,7 +7,7 @@ Top side Hardware : Touch screen Human Machine Interface (HMI)
 
 Underwater Hardware : RP2040 ARM Cortex-M0 MCU (Pico) with Break out board
 
-Communication protocol : UART via RS485
+Communication protocol : UART in Hex via RS485
 
 |Little Turtle Fish|Big Turtle Fish|
 |---|---|
