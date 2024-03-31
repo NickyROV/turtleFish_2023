@@ -9,7 +9,7 @@ Underwater Hardware : RP2040 ARM Cortex-M0 MCU (Pico) with Break out board
 
 Communication protocol : UART via RS485
 
-|Little Fish|Big Fish|
+|Little Turtle Fish|Big Turtle Fish|
 |---|---|
 |4 x 3-phsae thrusters / 1 claw servo|6 x 3-phase thrusters / 2 claw servo|
 |Tether : 15 m|Tether : 20 m|
