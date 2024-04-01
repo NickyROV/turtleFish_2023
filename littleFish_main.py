@@ -17,7 +17,6 @@ thruster9=PWM(Pin(9), freq=100, duty_ns=halt)
 thruster10=PWM(Pin(10), freq=100, duty_ns=halt)
 thruster11=PWM(Pin(11), freq=100, duty_ns=halt)
 claw12=PWM(Pin(12), freq=100, duty_ns=halt)
-claw13=PWM(Pin(13), freq=100, duty_ns=halt)
 
 def riseFast():
     thruster8.init(freq=100, duty_ns=fwdFull)
@@ -68,7 +67,6 @@ def stop():
     claw13.init(freq=100, duty_ns=halt)
 
 while True:
-#    uart.write('ta1234567890')
     if uart.any():
         data=uart.read()
         print (data)
@@ -92,15 +90,10 @@ while True:
             turnLeft()
         elif data==b'\xbb\xaa\xff':
             turnRight()
-            
         elif data==b'\xee\xaa\xff':
             claw12.init(freq=100, duty_ns=clawOpen)
         elif data==b'\xee\xbb\xff':
             claw12.init(freq=100, duty_ns=clawClose)
-        elif data==b'\xee\xcc\xff':
-            claw13.init(freq=100, duty_ns=clawOpen)
-        elif data==b'\xee\xdd\xff':
-            claw13.init(freq=100, duty_ns=clawClose)            
         elif data==b'\xee\xee\xff':
             stop()
             
