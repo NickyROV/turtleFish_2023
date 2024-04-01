@@ -1,21 +1,24 @@
-Action    HEX      GPIO PWM signal
-rise    aaaaff    aaaaff
-sink    aabbff    aabbff
-fwd
-rev           
-goLeft   ccaaff    ccaaff
-goRight   ccbbff    ccbbff
-fwdLeft   ccccff    ------
-fwdRight  ccddff    ------
-revFast   ddaaff    ddaaff
-revSlow   ddbbff    ddbbff
-revLeft   ddccff    ------
-revRight  ddddff    ------
+Action      HEX     GPIO PWM signal*
+rise      aaaaff    8f 9f
+sink      aaccff    8b 9b
 
-turnLeft  bbbbff    bbbbff
-turnRight bbaaff    bbaaff
+fwd       ccaaff    6f 7f 8f 9f
+fwdLeft   ccccff    7f 11f
+fwdRight  ccddff    6f 10f
 
-clawOpen  eeaaff    eeaaff
-clawClose eebbff    eebbff
-clawUp    eeccff    ------
-clawDown  eeddff    ------
+rev       ddaaff    6b 7b 10b 11b
+revLeft   ddccff    6b 10b
+revRight  ddddff    7b 11b
+
+goLeft    ccaaff    6b 7f 10b 11f
+goRight   ccbbff    6f 7b 10f 11b
+turnLeft  bbbbff    6f 7b 10b 11f
+turnRight bbaaff    6b 7f 10f 11b
+
+clawOpen  eeaaff    12f
+clawClose eebbff    12b
+clawUp    eeccff    13f
+clawDown  eeddff    13b
+
+*6f 7b = GP6 forward(PWM 1900ms) / GP7 backward(PWM1100ms)
+GP not mentioned = stayPut
