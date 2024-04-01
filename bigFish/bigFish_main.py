@@ -98,9 +98,9 @@ while True:
             sink()        
         elif data==b'\xcc\xaa\xff':
             fwd()
-        elif data==b'\xcc\xcc\xff':
+        elif data==b'\xcc\xbb\xff':
             fwdLeft()
-        elif data==b'\xcc\xdd\xff':
+        elif data==b'\xcc\xcc\xff':
             fwdRight()            
         elif data==b'\xdd\xaa\xff':
             rev()
@@ -108,9 +108,9 @@ while True:
             revLeft()
         elif data==b'\xdd\xdd\xff':
             revRight()             
-        elif data==b'\xcc\xaa\xff':
+        elif data==b'\xcc\xdd\xff':
             goLeft()
-        elif data==b'\xcc\xbb\xff':
+        elif data==b'\xcc\xee\xff':
             goRight()             
         elif data==b'\xbb\xbb\xff':
             turnLeft()
