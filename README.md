@@ -17,3 +17,6 @@ Communication protocol : UART in Hex via RS485
 |2 x Fishing Camera|1 x Fishing Camera|
 
 ESC -> PWM Freq 100Hz with range : 1100us(Full Backward) <-> 1500us(Stop) <-> 1900us(Full Forward)
+
+Top Side interface unit : stm32 ARM-Cortex base with touch screen
+CAD file for this project is too big to upload (>150MB)
