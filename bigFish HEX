@@ -9,7 +9,7 @@ fwdSlow   ccbbff    ccbbff
 fwdLeft   ccccff    ------
 fwdRight  ccddff    ------
 
-revFase   ddaaff    ddaaff
+revFast   ddaaff    ddaaff
 revSlow   ddbbff    ddbbff
 revLeft   ddccff    ------
 revRight  ddddff    ------
