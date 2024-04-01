@@ -1,14 +1,12 @@
-Action    bigFish  littleFish
-riseFast  aaaaff    aaaaff
-riseSlow  aabbff    aabbff
-sinkFast  aaccff    aaccff
-sinkSlow  aaddff    aaddff
-
-fwdFast   ccaaff    ccaaff
-fwdSlow   ccbbff    ccbbff
+Action    HEX      GPIO PWM signal
+rise    aaaaff    aaaaff
+sink    aabbff    aabbff
+fwd
+rev           
+goLeft   ccaaff    ccaaff
+goRight   ccbbff    ccbbff
 fwdLeft   ccccff    ------
 fwdRight  ccddff    ------
-
 revFast   ddaaff    ddaaff
 revSlow   ddbbff    ddbbff
 revLeft   ddccff    ------
