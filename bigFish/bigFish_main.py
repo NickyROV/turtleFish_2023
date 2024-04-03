@@ -97,13 +97,13 @@ while True:
         elif data==b'\xaa\xcc\xff':
             sink()        
         elif data==b'\xcc\xaa\xff':
-            fwd()
+            forwrdd()
         elif data==b'\xcc\xbb\xff':
             fwdLeft()
         elif data==b'\xcc\xcc\xff':
             fwdRight()            
         elif data==b'\xdd\xaa\xff':
-            rev()
+            reverse()
         elif data==b'\xdd\xcc\xff':
             revLeft()
         elif data==b'\xdd\xdd\xff':
