@@ -97,7 +97,7 @@ while True:
         elif data==b'\xaa\xcc\xff':
             sink()        
         elif data==b'\xcc\xaa\xff':
-            forwrdd()
+            forward()
         elif data==b'\xcc\xbb\xff':
             fwdLeft()
         elif data==b'\xcc\xcc\xff':
