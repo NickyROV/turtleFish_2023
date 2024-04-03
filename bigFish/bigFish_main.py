@@ -10,8 +10,8 @@ clawOpen = 1900000
 clawClose = 1100000
 halt = 1500000
 
-thruster8=PWM(Pin(6), freq=100, duty_ns= halt)
-thruster8=PWM(Pin(7), freq=100, duty_ns= halt)
+thruster6=PWM(Pin(6), freq=100, duty_ns= halt)
+thruster7=PWM(Pin(7), freq=100, duty_ns= halt)
 thruster8=PWM(Pin(8), freq=100, duty_ns= halt)
 thruster9=PWM(Pin(9), freq=100, duty_ns=halt)
 thruster10=PWM(Pin(10), freq=100, duty_ns=halt)
