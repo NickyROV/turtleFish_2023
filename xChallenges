@@ -3,9 +3,14 @@
 #Upgrade 1a : Keep track of connection status via IWDG
 #Upgrade 2 : Time delay until ESC pick up 1500us signal to set-up thrusters (1 seconds should be good)
 #Upgrade 3 : Program to handle situation when two touch buttons fire at the same time, interrupt may be an idea
+#Upgrade 3A : Using multi-threading alongside with interrupt to maintain the system concurrently 
 #Upgrade 4 : Water lead sensor in underwater unit
 #Upgrade 5 : Power Outage sensor in underwater unit
 #Upgrade 6 : Crash avoidence by ultrasonic sensor
-#Upgrade 7 : Vision recognition by Edge AI
-#Upgrade 8 : Autonomous drive by Edga AI
-#Upgrade 9 : More sensors and with PID path control, ROS is definitely a good choose.
+#Upgrade 7 : More sensors and with PID path control, ROS is definitely a good choose.
+#Upgrade 8 : Vision recognition by Edge AI
+#Upgrade 8A : Image recognition on ARM-base microcontroller, such as TinyML 
+#Upgrade 8B : Autonomous drive by Trajectory-Planning algorithm
+#Upgrade 9 : System upgrade
+#Upgrade 9A : Hardware to support ROS  
+#Upgrade 9B : Better management by RTOS
