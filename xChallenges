@@ -8,7 +8,7 @@
 #Upgrade 5 : Power Outage sensor in underwater unit
 #Upgrade 6 : Crash avoidence by ultrasonic sensor
 #Upgrade 7 : More sensors and with PID path control, ROS is definitely a good choose.
-#Upgrade 8 : Vision recognition by Edge AI (timyML)
+#Upgrade 8 : Vision recognition by (possibly...) OpenCV, Scikit-Image, scipy.ndimage and pixel manipulation by NumPy. Newcommer tinyML shows promising future. 
 #Upgrade 8A : Image recognition on ARM-base microcontroller, such as TinyML 
 #Upgrade 8B : Autonomous drive by Trajectory-Planning algorithm
 #Upgrade 9 : System upgrade
