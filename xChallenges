@@ -13,4 +13,4 @@
 #Upgrade 8B : Autonomous drive by Trajectory-Planning algorithm
 #Upgrade 9 : System upgrade
 #Upgrade 9A : Hardware to support ROS  
-#Upgrade 9B : Better management by RTOS
+#Upgrade 9B : System management by RTOS
