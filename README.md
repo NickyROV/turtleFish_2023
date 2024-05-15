@@ -20,3 +20,6 @@ ESC -> PWM Freq 100Hz with range : 1100us(Full Backward) <-> 1500us(Stop) <-> 19
 
 Top Side interface unit : stm32 ARM-Cortex base with touch screen
 CAD file for this project is too big to upload (>150MB)
+
+Project Closed : 2024/04/28
+Next Modification : 4 sets of thruster connected to stepper to make it more versatile in direction control
